@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noman Aijaz — Senior Python / Full-Stack Developer</title>
+<meta name="description" content="Noman Aijaz — Senior Python & Full-Stack Developer. Django, DRF, React, Next.js, multi-tenant SaaS, Web3 & AI integrations.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="grain"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="logo">NA<span class="dot">.</span><span class="logo-caret">_</span></a>
+    <nav class="navlinks" id="navlinks">
+      <a href="#work" data-nav>work</a>
+      <a href="#stack" data-nav>skills</a>
+      <a href="#services" data-nav>services</a>
+      <a href="#about" data-nav>about</a>
+      <a href="#contact" data-nav>contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary btn-sm">Contact me</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#work" data-nav>Work</a>
+  <a href="#stack" data-nav>Skills</a>
+  <a href="#services" data-nav>Services</a>
+  <a href="#about" data-nav>About</a>
+  <a href="#contact" data-nav>Contact</a>
+</div>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy reveal">
+      <div class="term-chip mono"><span class="term-dot"></span> available for new projects</div>
+      <h1 class="hero-title">
+        <span class="mono prompt">$ whoami</span>
+        Noman Aijaz<br>
+        <span class="grad-text">Senior Python &amp;<br>Full-Stack Developer</span>
+      </h1>
+      <p class="hero-sub mono" id="typewriter"></p>
+      <p class="hero-desc">I design and ship production-grade Django, DRF &amp; React systems — from multi-tenant SaaS platforms to Web3 integrations — for teams who need it built right the first time.</p>
+      <div class="hero-cta">
+        <a href="#work" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+      <div class="stat-strip">
+        <div class="stat-chip"><span class="num" data-count="6" data-suffix="+">0</span><span class="lbl">years experience</span></div>
+        <div class="stat-chip"><span class="num" data-count="10" data-suffix="+">0</span><span class="lbl">SaaS products shipped</span></div>
+        <div class="stat-chip"><span class="lbl-only">Enterprise-grade delivery</span></div>
+      </div>
+    </div>
+    <div class="hero-art reveal" style="--delay:.15s">
+      <div class="float-wrap">
+        <img src="assets/hero.png" alt="Illustration of a development workstation with cloud, API and analytics icons" class="hero-img">
+        <div class="code-card mono">
+          <div class="code-dots"><span></span><span></span><span></span></div>
+<pre><span class="c-kw">class</span> <span class="c-cl">Engineer</span>:
+  <span class="c-kw">def</span> <span class="c-fn">stack</span>(self):
+    <span class="c-kw">return</span> [
+      <span class="c-str">"Django"</span>, <span class="c-str">"DRF"</span>,
+      <span class="c-str">"React"</span>, <span class="c-str">"Next.js"</span>,
+      <span class="c-str">"Web3"</span>
+    ]</pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="wrap about-grid">
+    <div class="about-art reveal">
+      <img src="assets/about.png" alt="Illustration of a dual-monitor developer desk setup" class="about-img">
+    </div>
+    <div class="reveal" style="--delay:.1s">
+      <span class="eyebrow mono">// about</span>
+      <h2 class="h2">Six years turning ambitious specs into stable, scalable software</h2>
+      <p class="body-text">
+        I'm a Senior Python &amp; Full-Stack Developer based in Pakistan, currently building enterprise CMS platforms,
+        multi-tenant SaaS products and Web3 investment tools at Techstack Digital. My work spans the full stack —
+        Django &amp; DRF on the backend, React, Next.js and Vue on the front — with a habit of owning a feature from
+        database schema to deployed pixel.
+      </p>
+      <p class="body-text">
+        Along the way I've architected tenant-isolated HR platforms, built signal-driven cache-invalidation systems
+        for high-traffic CMS sites, synced Ethereum smart contracts with Django backends, and shipped AI-integrated
+        BI dashboards — always with an eye on performance, maintainability and the business result behind the code.
+      </p>
+      <div class="expertise-grid">
+        <div class="exp-card"><span class="exp-ico">◆</span>Backend Engineering</div>
+        <div class="exp-card"><span class="exp-ico">◇</span>Frontend Development</div>
+        <div class="exp-card"><span class="exp-ico">▲</span>Cloud &amp; DevOps</div>
+        <div class="exp-card"><span class="exp-ico">△</span>SaaS Architecture</div>
+        <div class="exp-card"><span class="exp-ico">●</span>AI Integrations</div>
+        <div class="exp-card"><span class="exp-ico">○</span>Web3 Development</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="work">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow mono">// featured-work</span>
+      <h2 class="h2">Projects that shipped, scaled, and stayed up</h2>
+      <p class="sub">A selection of production systems I've architected and built end to end.</p>
+    </div>
+
+    <div class="project-grid">
+      <article class="project-card reveal">
+        <div class="project-media"><img src="assets/project-cms.png" alt="Enterprise Django CMS Platform"></div>
+        <div class="project-body">
+          <h3>Enterprise Django CMS Platform</h3>
+          <p>Multi-tenant CMS powering enterprise content teams, with a signal-driven Cloudflare cache-invalidation layer that purges only affected pages, plus custom plugins, multilingual workflows and Algolia search.</p>
+          <div class="tag-row"><span class="tag">Django CMS</span><span class="tag">Vue.js</span><span class="tag">Celery</span><span class="tag">Algolia</span></div>
+          <div class="key-result">Key result: fresh content without sacrificing CDN performance</div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" style="--delay:.05s">
+        <div class="project-media"><img src="assets/project-hr.png" alt="Multi-Tenant HR SaaS Platform"></div>
+        <div class="project-body">
+          <h3>Multi-Tenant HR SaaS Platform</h3>
+          <p>Architected from scratch on Django REST Framework with django-tenants schema isolation, JWT auth and OpenAPI docs, paired with a React + Vite + TypeScript frontend.</p>
+          <div class="tag-row"><span class="tag">DRF</span><span class="tag">React + Vite</span><span class="tag">JWT</span><span class="tag">TypeScript</span></div>
+          <div class="key-result">Key result: clean tenant isolation across every client org</div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" style="--delay:.1s">
+        <div class="project-media"><img src="assets/project-corp.png" alt="Corporate Website built with Payload CMS and Next.js"></div>
+        <div class="project-body">
+          <h3>Corporate Website — Payload CMS + Next.js</h3>
+          <p>Custom collections, dynamic Lexical blocks, live preview, form builder and SEO/redirect plugins, styled with Tailwind CSS and Radix UI for an editor-friendly, fast static site.</p>
+          <div class="tag-row"><span class="tag">Next.js</span><span class="tag">Payload CMS</span><span class="tag">Tailwind</span><span class="tag">Radix UI</span></div>
+          <div class="key-result">Key result: editor-friendly content modeling, fast static delivery</div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" style="--delay:.15s">
+        <div class="project-media"><img src="assets/project-blockchain.png" alt="Blockchain Investment Platform"></div>
+        <div class="project-body">
+          <h3>Blockchain Investment Platform</h3>
+          <p>On-chain smart contracts over JSON-RPC (ethers.js, Privy auth) synced with a Django backend to track investments, bundles, deferred payouts and pool funding.</p>
+          <div class="tag-row"><span class="tag">Django</span><span class="tag">ethers.js</span><span class="tag">Privy</span><span class="tag">React</span></div>
+          <div class="key-result">Key result: reliable on-chain / off-chain sync for every transaction</div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" style="--delay:.2s">
+        <div class="project-media"><img src="assets/project-chatbot.png" alt="AI Chatbot Platform"></div>
+        <div class="project-body">
+          <h3>AI Chatbot Platform — Cronus</h3>
+          <p>A three-node Elasticsearch cluster indexing Wikipedia &amp; Stack Overflow data, a Django web panel with speech-to-text and MongoDB, fully Dockerized for deployment.</p>
+          <div class="tag-row"><span class="tag">Elasticsearch</span><span class="tag">Django</span><span class="tag">MongoDB</span><span class="tag">Docker</span></div>
+          <div class="key-result">Key result: fast, relevant answers to complex queries</div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TECH STACK ============ -->
+<section class="section stack-section" id="stack">
+  <div class="stack-bg" style="background-image:url('assets/techstack-bg.png')"></div>
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow mono">// tech-stack</span>
+      <h2 class="h2">Tools I reach for, by layer</h2>
+    </div>
+    <div class="stack-grid">
+      <div class="stack-col reveal">
+        <h4>Backend</h4>
+        <div class="pill-row"><span class="pill">Python</span><span class="pill">Django</span><span class="pill">DRF</span><span class="pill">FastAPI</span><span class="pill">Flask</span><span class="pill">Celery</span></div>
+      </div>
+      <div class="stack-col reveal" style="--delay:.05s">
+        <h4>Frontend</h4>
+        <div class="pill-row"><span class="pill">React</span><span class="pill">Next.js</span><span class="pill">TypeScript</span><span class="pill">Vue.js</span><span class="pill">Tailwind CSS</span></div>
+      </div>
+      <div class="stack-col reveal" style="--delay:.1s">
+        <h4>Databases</h4>
+        <div class="pill-row"><span class="pill">PostgreSQL</span><span class="pill">MySQL</span><span class="pill">MongoDB</span><span class="pill">Redis</span><span class="pill">Elasticsearch</span></div>
+      </div>
+      <div class="stack-col reveal" style="--delay:.15s">
+        <h4>Cloud &amp; DevOps</h4>
+        <div class="pill-row"><span class="pill">Docker</span><span class="pill">AWS</span><span class="pill">Nginx</span><span class="pill">Cloudflare</span><span class="pill">GitHub Actions</span></div>
+      </div>
+      <div class="stack-col reveal" style="--delay:.2s">
+        <h4>Web3</h4>
+        <div class="pill-row"><span class="pill">ethers.js</span><span class="pill">Privy</span><span class="pill">Smart Contracts</span><span class="pill">JSON-RPC</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow mono">// services</span>
+      <h2 class="h2">How I can help</h2>
+    </div>
+    <div class="service-grid">
+      <div class="service-card reveal">
+        <img src="assets/svc-webapp.png" alt="" class="svc-ico">
+        <h3>Custom Web App Development</h3>
+        <p>Full-stack builds from database schema to deployed interface, tailored to how your team actually works.</p>
+      </div>
+      <div class="service-card reveal" style="--delay:.05s">
+        <img src="assets/svc-saas.png" alt="" class="svc-ico">
+        <h3>SaaS Product Development</h3>
+        <p>Multi-tenant architecture, subscription logic and onboarding flows built to scale past your first customers.</p>
+      </div>
+      <div class="service-card reveal" style="--delay:.1s">
+        <img src="assets/svc-api.png" alt="" class="svc-ico">
+        <h3>API Development &amp; Integration</h3>
+        <p>Documented, versioned REST &amp; JSON-RPC APIs that connect cleanly to the systems you already run.</p>
+      </div>
+      <div class="service-card reveal" style="--delay:.15s">
+        <img src="assets/svc-cms.png" alt="" class="svc-ico">
+        <h3>CMS Development</h3>
+        <p>Django CMS and Payload builds with editor-friendly content modeling and fast page delivery.</p>
+      </div>
+      <div class="service-card reveal" style="--delay:.2s">
+        <img src="assets/svc-cloud.png" alt="" class="svc-ico">
+        <h3>Cloud Infrastructure &amp; Deployment</h3>
+        <p>Docker, Nginx and CI/CD pipelines set up for continuous delivery and uptime you don't think about.</p>
+      </div>
+      <div class="service-card reveal" style="--delay:.25s">
+        <img src="assets/svc-consulting.png" alt="" class="svc-ico">
+        <h3>Technical Consulting</h3>
+        <p>Architecture reviews and hands-on guidance for teams navigating a tricky technical decision.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE TIMELINE ============ -->
+<section class="section" id="experience">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow mono">// experience</span>
+      <h2 class="h2">Where I've built this</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-line" id="timelineLine"></div>
+
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-date mono">Jan 2025 — Present</div>
+          <h3>Senior Python / Full-Stack Developer <span class="tl-co">· Techstack Digital</span></h3>
+          <ul>
+            <li>Delivered full-stack work across an enterprise Django CMS, a multi-tenant HR SaaS, a Payload CMS site and a Web3 investment platform.</li>
+            <li>Engineered a signal-driven Cloudflare cache-invalidation system that purges only affected pages on content change.</li>
+            <li>Built custom Django CMS plugins, multilingual workflows, Algolia search, and Celery-backed async tasks.</li>
+            <li>Synced on-chain smart contracts (ethers.js, Privy, JSON-RPC) with a Django backend for a blockchain investment platform.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item reveal" style="--delay:.05s">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-date mono">Jun 2023 — Dec 2025</div>
+          <h3>Python Django Developer <span class="tl-co">· SafetyEQ</span></h3>
+          <ul>
+            <li>Architected a multi-tenant SaaS with Django Tenants, cutting resource overlap by 40%.</li>
+            <li>Partnered with AI engineers on BI dashboards — 80% faster data flow, 30% higher dashboard performance.</li>
+            <li>Optimized complex queries, reducing load times by up to 50%.</li>
+            <li>Ran CI/CD via Docker, Nginx, GitHub Actions and AWS EC2 at 99.9% uptime.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item reveal" style="--delay:.1s">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-date mono">Sep 2021 — May 2023</div>
+          <h3>Python Developer <span class="tl-co">· Innovative Solutions</span></h3>
+          <ul>
+            <li>Built Cronus, an AI chatbot, on a three-node Elasticsearch cluster with a Django + MongoDB web panel and speech-to-text.</li>
+            <li>Built News Revealer, scraping and ranking 100 related articles via cosine similarity to feed an NLP summarization model.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item reveal" style="--delay:.15s">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-date mono">Jan 2020 — Aug 2021</div>
+          <h3>Python Developer <span class="tl-co">· Coderatory Software House</span></h3>
+          <ul>
+            <li>Built and managed APIs in Flask backed by SQL and PostgreSQL.</li>
+            <li>Wrote web scrapers to collect and structure data from multiple sites.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="section" id="process">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow mono">// process</span>
+      <h2 class="h2">How a project moves from idea to production</h2>
+    </div>
+    <div class="process-row">
+      <div class="proc-step reveal">
+        <img src="assets/process-discovery.png" alt="">
+        <div class="proc-num mono">01</div>
+        <h4>Discovery</h4>
+        <p>Understand the goal, users and constraints before a line of code is written.</p>
+      </div>
+      <div class="proc-arrow">→</div>
+      <div class="proc-step reveal" style="--delay:.05s">
+        <img src="assets/process-architecture.png" alt="">
+        <div class="proc-num mono">02</div>
+        <h4>Architecture</h4>
+        <p>Design the data model, service boundaries and integrations up front.</p>
+      </div>
+      <div class="proc-arrow">→</div>
+      <div class="proc-step reveal" style="--delay:.1s">
+        <img src="assets/process-development.png" alt="">
+        <div class="proc-num mono">03</div>
+        <h4>Development</h4>
+        <p>Build in reviewable increments, backend and frontend in step.</p>
+      </div>
+      <div class="proc-arrow">→</div>
+      <div class="proc-step reveal" style="--delay:.15s">
+        <img src="assets/process-testing.png" alt="">
+        <div class="proc-num mono">04</div>
+        <h4>Testing</h4>
+        <p>Validate against real usage patterns, not just the happy path.</p>
+      </div>
+      <div class="proc-arrow">→</div>
+      <div class="proc-step reveal" style="--delay:.2s">
+        <img src="assets/process-deployment.png" alt="">
+        <div class="proc-num mono">05</div>
+        <h4>Deployment</h4>
+        <p>Ship through CI/CD with zero-downtime releases as the default.</p>
+      </div>
+      <div class="proc-arrow">→</div>
+      <div class="proc-step reveal" style="--delay:.25s">
+        <img src="assets/process-maintenance.png" alt="">
+        <div class="proc-num mono">06</div>
+        <h4>Maintenance</h4>
+        <p>Monitor, fix and evolve the system as real usage teaches you more.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section" id="testimonials">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow mono">// testimonials</span>
+      <h2 class="h2">What people who've worked with me say</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <p class="testi-quote">“Noman brought strong Python, Django and Elasticsearch expertise to our AI Voice Assistant and Fake-News Detection platforms — handling complex backend and data work professionally, and always on time. I'd recommend him for any Python, AI or NLP project.”</p>
+        <div class="testi-person">
+          <img src="assets/avatar-1.png" alt="Mohsin Ali">
+          <div><strong>Mohsin Ali</strong><span>Sr. AI Engineer</span></div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="--delay:.05s">
+        <p class="testi-quote">“Noman is one of the most reliable engineers on our team. He owns everything from Django architecture to frontend delivery across every client project we hand him, and consistently raises the bar on code quality.”</p>
+        <div class="testi-person">
+          <img src="assets/avatar-2.png" alt="Hassan Ahmed">
+          <div><strong>Hassan Ahmed</strong><span>COO, Techstack Digital</span></div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="--delay:.1s">
+        <p class="testi-quote">“Noman built our corporate website from the ground up — fast, editor-friendly and exactly on brief. He clearly understands both the engineering and the business side of what he's building.”</p>
+        <div class="testi-person">
+          <img src="assets/avatar-3.png" alt="Usman Malik">
+          <div><strong>Usman Malik</strong><span>CEO</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact-section" id="contact">
+  <div class="wrap contact-grid">
+    <div class="reveal">
+      <div class="term-chip mono"><span class="term-dot"></span> available for new projects</div>
+      <h2 class="h2">Let's build something scalable together</h2>
+      <p class="body-text">Have a project in mind, or need a senior engineer to take something over the line? I typically reply within a day. Notice period on current engagements: 30 days.</p>
+
+      <form id="contactForm" class="contact-form" action="https://formspree.io/f/xkodokov" method="POST">
+        <label>Name<input type="text" name="name" required></label>
+        <label>Email<input type="email" name="email" required></label>
+        <label>Message<textarea name="message" rows="5" required></textarea></label>
+        <button type="submit" class="btn btn-primary" id="submitBtn">Send Message</button>
+        <p class="form-status mono" id="formStatus"></p>
+      </form>
+    </div>
+    <div class="contact-side reveal" style="--delay:.1s">
+      <img src="assets/contact.png" alt="" class="contact-img">
+      <div class="social-list">
+        <a href="https://github.com/nomikk08/" target="_blank" rel="noopener" class="social-link">
+          <span class="mono">GitHub</span><span class="arrow">↗</span>
+        </a>
+        <a href="https://www.linkedin.com/in/noman-aijaz/" target="_blank" rel="noopener" class="social-link">
+          <span class="mono">LinkedIn</span><span class="arrow">↗</span>
+        </a>
+        <a href="mailto:nomikk08@gmail.com" class="social-link">
+          <span class="mono">Email</span><span class="arrow">↗</span>
+        </a>
+        <a href="tel:+923052572700" class="social-link">
+          <span class="mono">+92 305 2572700</span><span class="arrow">↗</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <span>© 2026 Noman Aijaz</span>
+    <span class="footer-links"><a href="#work">Work</a><a href="#stack">Skills</a><a href="#about">About</a><a href="#contact">Contact</a></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
